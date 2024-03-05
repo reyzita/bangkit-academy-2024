@@ -7,7 +7,7 @@ import seaborn as sns
 import requests
 from io import StringIO
 
-url = 'https://github.com/reyzita/dicoding-data-analysis-project/raw/96f046aa6003522df3ada08be5c7f6a1517b8ce9/pages/orders_df.csv'
+url = 'https://github.com/reyzita/bangkit-academy-2024/blob/ff56e4e131e40d13fad03801b9c3f9c93bc22640/orders_df.csv'
 
 # Membaca file CSV dari URL dan memuatnya ke dalam DataFrame orders_df
 orders_df = pd.read_csv(url)
